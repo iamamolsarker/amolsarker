@@ -1,0 +1,17 @@
+.hero-bg {
+  background-image: url("../assets/n-hero-bg.svg");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.animate-spin-slow{
+    animation: spin 6s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

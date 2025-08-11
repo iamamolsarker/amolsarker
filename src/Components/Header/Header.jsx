@@ -40,11 +40,11 @@ const Header = () => {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4">
-        <nav className="backdrop-blur-md bg-white/10 border border-white/20 rounded-4xl lg:rounded-full px-6 py-4 shadow-2xl">
+        <nav className="backdrop-blur-md bg-white/10 border border-white/20 rounded-4xl lg:rounded-full p-2 shadow-2xl">
           <div className="flex items-center justify-between">
             {/* Logo */}
-            <div className="flex items-center space-x-3">
-              <img src={logo} alt="" className="w-[140px]" />
+            <div className="flex items-center space-x-3 pl-1">
+              <img src={logo} alt="" className="w-[100px]" />
             </div>
 
             {/* Desktop Menu */}

@@ -9,7 +9,7 @@ const AboutSection = () => {
   return (
     <div className="max-w-7xl mx-auto flex items-center px-4 py-20 gap-8">
       <div className="lg:w-[69%] ">
-        <p className=" text-white nunito-font relative mb-8">
+        <p className=" text-white relative mb-8">
           <span className="inline-block text-2xl absolute wave">
             <LuHand color="#D4FE1A" />
           </span>

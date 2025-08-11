@@ -15,23 +15,23 @@ const Header = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const scrollToSection = (sectionId) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-      setIsMenuOpen(false);
-    }
-  };
+//   const scrollToSection = (sectionId) => {
+//     const element = document.getElementById(sectionId);
+//     if (element) {
+//       element.scrollIntoView({ behavior: "smooth" });
+//       setIsMenuOpen(false);
+//     }
+//   };
 
-  const menuItems = [
-    { label: "Home", section: "hero" },
-    { label: "About", section: "about" },
-    { label: "Skills", section: "skills" },
-    { label: "Experience", section: "experience" },
-    { label: "Education", section: "education" },
-    { label: "Projects", section: "projects" },
-    { label: "Contact", section: "contact" },
-  ];
+//   const menuItems = [
+//     { label: "Home", section: "hero" },
+//     { label: "About", section: "about" },
+//     { label: "Skills", section: "skills" },
+//     { label: "Experience", section: "experience" },
+//     { label: "Education", section: "education" },
+//     { label: "Projects", section: "projects" },
+//     { label: "Contact", section: "contact" },
+//   ];
 
   return (
     <header

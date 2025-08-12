@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
-import Header from '../Components/Header/Header';
-import Footer from '../Components/Footer/Footer';
 import Hero from '../Components/Hero/Hero';
 import AboutSection from '../Components/AboutSection/AboutSection';
 import { useLocation, useNavigate } from 'react-router';
+import MyExperience from '../Components/MyExperience/MyExperience';
+import { SkillCardSection } from '../Components/SkillCardSection/SkillCardSection';
 
 const Home = () => {
     const location = useLocation();
@@ -29,6 +29,8 @@ const Home = () => {
             
             <Hero/>
             <AboutSection/>
+            <SkillCardSection/>
+            <MyExperience/>
             
         </div>
     );

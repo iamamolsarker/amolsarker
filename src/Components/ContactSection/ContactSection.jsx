@@ -6,7 +6,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const ContactSection = () => {
   return (
-    <section id="skills" className="max-w-7xl mx-auto px-4 py-20  space-y-15">
+    <section id="contact" className="max-w-7xl mx-auto px-4 py-20  space-y-15">
       <div className="space-y-3">
         <p className=" text-white text-center relative">
           <span className="inline-block text-2xl absolute animate-spin-slow">
@@ -60,6 +60,7 @@ const ContactSection = () => {
           </Link>
         </GlareHover>
       </div>
+      
     </section>
   );
 };

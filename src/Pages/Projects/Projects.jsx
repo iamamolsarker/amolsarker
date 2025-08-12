@@ -6,9 +6,9 @@ import project3 from '../../assets/projectMockup/EduBridge-Project-Mockup-for-pe
 import project4 from '../../assets/projectMockup/Infinityt-Project-Mockup-for-personal-website.avif'
 import { Link } from 'react-router';
 
-const MyProjectsSection = () => {
+const Projects = () => {
     return (
-        <section id="projects" className="max-w-7xl mx-auto px-4 py-20  space-y-15">
+        <section id="projects" className="max-w-7xl mx-auto px-4 py-20 mt-20 space-y-15">
               <div className="space-y-3 ">
                 <p className=" text-white  relative">
                   <span className="inline-block text-2xl absolute animate-spin-slow">
@@ -74,4 +74,4 @@ const MyProjectsSection = () => {
     );
 };
 
-export default MyProjectsSection;
+export default Projects;

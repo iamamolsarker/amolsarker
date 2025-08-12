@@ -24,7 +24,7 @@ const Header = () => {
     { label: "Projects", section: "projects" },
     { label: "Skills", section: "skills" },
     { label: "Experience", section: "experience" },
-    { label: "Education", section: "education" },
+    // { label: "Education", section: "education" },
     { label: "Contact", section: "contact" },
   ];
 

@@ -34,11 +34,11 @@ const Hero = () => {
             transitionDuration={2000}
             delay={2500}
           >
-            <button className="relative inline-block text-[#111111] font-semibold rounded-full bg-gradient-to-r from-[#D4FE1A] to-[#39EEBE] border-2 border-transparent cursor-pointer">
+            <Link to={"/projects"} className="relative inline-block text-[#111111] font-semibold rounded-full bg-gradient-to-r from-[#D4FE1A] to-[#39EEBE] border-2 border-transparent cursor-pointer">
               <span className="flex items-center gap-2 bg-[#111] text-white rounded-full px-6 py-2.5 tracking-wider">
                 Projects <FaReact className="animate-spin-slow" />
               </span>
-            </button>
+            </Link>
           </GlareHover>
         </div>
       </div>

@@ -35,10 +35,10 @@ const AboutMe = () => {
             with clients from all over the world.
             <br />
             <br />
-            Later,I realized the need to upskill myself with a proper
-            programminglanguage. So, I joined a bootcamp where I learned new
-            technologieslike JavaScript, React, Node.js, Express, MongoDB,
-            Firebase Auth, and JWT. I havegained in-depth knowledge of each
+            Later, I realized the need to upskill myself with a proper
+            programming language. So, I joined a bootcamp where I learned new
+            technologies like JavaScript, React, Node.js, Express, MongoDB,
+            Firebase Auth, and JWT. I have gained in-depth knowledge of each
             topic and built several real-world projects that solve actual
             problems.
             <br />

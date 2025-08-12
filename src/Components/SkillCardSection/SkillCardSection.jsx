@@ -11,15 +11,22 @@ import htmlLogo from "../../assets/skills/html-5.svg";
 import cssLogo from "../../assets/skills/css-3.svg";
 import figmaLogo from "../../assets/skills/figma.svg";
 import wordpressLogo from "../../assets/skills/wordpress.svg";
+import { LuFan } from "react-icons/lu";
 
 export function SkillCardSection() {
   return (
     <section id="skills" className="max-w-7xl mx-auto px-4 py-20  space-y-15">
       <div className="space-y-3">
-        <h2 className="text-6xl text-white text-gradient text-center leading-normal">
-          Technologies I Use
+        <p className=" text-white text-center relative">
+          <span className="inline-block text-2xl absolute animate-spin-slow">
+            <LuFan color="#D4FE1A" />
+          </span>
+          <span className="pl-8">My Skills</span>
+        </p>
+        <h2 className="text-6xl text-white text-center leading-normal">
+          <span className="text-gradient">Technologies</span> I Use
         </h2>
-        <p className="text-center">
+        <p className="text-center text-lg">
           Transforming ideas into functional, user-focused web applications.
         </p>
       </div>

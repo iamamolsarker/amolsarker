@@ -1,6 +1,8 @@
-import React, { useRef, useMemo, useCallback } from "react";
+import React, { useRef, useMemo, } from "react";
 import "./ProfileCard.css";
 import amolProfile from "../assets/amol-profile.png"
+import { BiLogoGithub, BiLogoLinkedin } from "react-icons/bi";
+import { RiTwitterXFill } from "react-icons/ri";
 
 const DEFAULT_BEHIND_GRADIENT =
   "radial-gradient(farthest-side circle at 50% 50%, #D4FE1A 0%, #a6a6a6 #39EEBE)";
@@ -18,10 +20,8 @@ const ProfileCardComponent = ({
   name = "Amol Sarker",
   title = "Frontend Developer",
   handle = "iamamolsarker",
-  status = "Online",
   contactText = "Contact",
   showUserInfo = true,
-  onContactClick,
 }) => {
   const wrapRef = useRef(null);
 
@@ -32,9 +32,7 @@ const ProfileCardComponent = ({
     "--inner-gradient": innerGradient ?? DEFAULT_INNER_GRADIENT,
   }), [ showBehindGradient, behindGradient, innerGradient]);
 
-  const handleContactClick = useCallback(() => {
-    onContactClick?.();
-  }, [onContactClick]);
+  
 
   return (
     <div
@@ -74,18 +72,23 @@ const ProfileCardComponent = ({
                   </div>
                   <div className="pc-user-text">
                     <div className="pc-handle">@{handle}</div>
-                    <div className="pc-status">{status}</div>
+                    <div className="pc-status !flex"> <span className="!flex gap-1">
+                      <a href="https://www.linkedin.com/in/iamamolsarker/" target="_blank" ><BiLogoLinkedin/></a> 
+                      <a href="https://github.com/iamamolsarker" target="_blank" ><BiLogoGithub/> </a>
+                      <a href="https://x.com/iamamolsarker/" target="_blank" ><RiTwitterXFill/></a>
+                      </span></div>
                   </div>
                 </div>
-                <button
+                <a
+                  href="https://wa.me/8801683586860"
+                  target="_blank"
                   className="pc-contact-btn"
-                  onClick={handleContactClick}
                   style={{ pointerEvents: "auto" }}
                   type="button"
                   aria-label={`Contact ${name || "user"}`}
                 >
                   {contactText}
-                </button>
+                </a>
               </div>
             )}
           </div>

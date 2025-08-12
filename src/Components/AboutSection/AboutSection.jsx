@@ -4,6 +4,7 @@ import GlareEffect from "../../Animation/GlareHover";
 import { LuHand } from "react-icons/lu";
 import ProfileCard from "../../Animation/ProfileCard";
 import amolProfile from "../../assets/amol-profile.png"
+import AnimatedButton from "../../Animation/AnimatedButton";
 
 const AboutSection = () => {
   return (
@@ -22,15 +23,12 @@ const AboutSection = () => {
           </span>
         </h2>
         <div className="flex items-center my-4 gap-10">
-          <div className="flex-grow border-t border-[#252525] w-1/4"></div>
-          <span className="text-[#ababab] w-3/4">
-            Passionate Frontend Web Developer specializing in React, JavaScript,
-            Tailwind CSS, and Firebase. Expanding into full-stack MERN
-            development through real-world projects. Skilled in responsive
-            design, authentication, and API integration. Seeking opportunities
-            to grow, contribute, and build impactful web solutions in
-            collaborative, forward-thinking teams.
-          </span>
+          <div className="flex-grow border-t border-[#343434] w-1/4"></div>
+          <div className="w-3/4">
+            <p className="text-[#ababab]">With six years of freelance experience in Wordpress as a Elementor Expert, I have worked with different tools like Custom post type, ACF, JetEngine. Now I have grown into a Frontend Web Developer exploring backend technologies skilled in JavaScript, React, Node.js, Express, and MongoDB. I focus on creating clean, responsive, and scalable applications that solve real problems and deliver measurable results for businesses worldwide.</p>
+            <AnimatedButton link="/about-me" mainText="Know me better" hoverText="About Me" className="mt-6"/>
+          </div>
+          
         </div>
       </div>
       <div className="lg:w-[31%]">

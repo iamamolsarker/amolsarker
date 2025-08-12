@@ -7,10 +7,10 @@ import AboutSection from '../Components/AboutSection/AboutSection';
 const Home = () => {
     return (
         <div>
-            <Header/>
+            
             <Hero/>
             <AboutSection/>
-            <Footer/>
+            
         </div>
     );
 };

@@ -7,7 +7,7 @@ import GlareHover from "../../Animation/GlareHover";
 
 const Hero = () => {
   return (
-    <div className="hero-bg min-h-[750px] md:min-h-screen flex items-center justify-center px-4 md:px-8">
+    <section id="hero" className="hero-bg min-h-[750px] md:min-h-screen flex items-center justify-center px-4 md:px-8">
       <div className="py-20 flex flex-col justify-center items-center gap-6 text-center max-w-screen-lg w-full">
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-gradient">
           <DecryptText text="Amol Sarker" speed={50} />
@@ -41,7 +41,7 @@ const Hero = () => {
           </GlareHover>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -4,6 +4,8 @@ import AboutSection from '../Components/AboutSection/AboutSection';
 import { useLocation, useNavigate } from 'react-router';
 import MyExperience from '../Components/MyExperience/MyExperience';
 import { SkillCardSection } from '../Components/SkillCardSection/SkillCardSection';
+import MyProjectsSection from '../Components/MyProjectsSection/MyProjectsSection';
+import ContactSection from '../Components/ContactSection/ContactSection';
 
 const Home = () => {
     const location = useLocation();
@@ -31,7 +33,8 @@ const Home = () => {
             <AboutSection/>
             <SkillCardSection/>
             <MyExperience/>
-            
+            <MyProjectsSection/>
+            <ContactSection/>
         </div>
     );
 };

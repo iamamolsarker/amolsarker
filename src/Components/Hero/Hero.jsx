@@ -4,6 +4,7 @@ import DecryptText from "../../Animation/DecryptText";
 import { RxDownload } from "react-icons/rx";
 import { FaReact } from "react-icons/fa";
 import GlareHover from "../../Animation/GlareHover";
+import { Link } from "react-router";
 
 const Hero = () => {
   return (
@@ -21,10 +22,10 @@ const Hero = () => {
           expanding into full-stack development with the MERN stack.
         </p>
         <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 mt-4">
-          <button className="px-6 py-3 rounded-full font-semibold text-[#111111] bg-gradient-to-r from-[#D4FE1A] to-[#39EEBE] hover:opacity-90 flex items-center gap-2 tracking-wider cursor-pointer">
+          <Link to={"https://drive.google.com/uc?export=download&id=1fXHiVk-3FmvMM4KSRDLwG7sECdjxQefi"} target="_blank" rel="noopener noreferrer" download className="px-6 py-3 rounded-full font-semibold text-[#111111] bg-gradient-to-r from-[#D4FE1A] to-[#39EEBE] hover:opacity-90 flex items-center gap-2 tracking-wider cursor-pointer">
             <span>Download CV</span>
             <RxDownload />
-          </button>
+          </Link>
           <GlareHover
             glareColor="#ffffff"
             glareOpacity={0.5}

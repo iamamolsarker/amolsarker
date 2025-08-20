@@ -100,7 +100,7 @@ const Header = () => {
 
             {/* Desktop Actions */}
             <div className="hidden lg:flex items-center space-x-4">
-              <Link to={"https://drive.google.com/uc?export=download&id=1fXHiVk-3FmvMM4KSRDLwG7sECdjxQefi"} target="_blank" rel="noopener noreferrer" download className="px-6 py-3 rounded-full font-semibold text-[#111111] bg-gradient-to-r from-[#D4FE1A] to-[#39EEBE] hover:opacity-90 flex items-center gap-1.5 tracking-wider cursor-pointer">
+              <Link to={"https://drive.google.com/uc?export=download&id=14UPoZuvGl8EnWb7Vz8jhs26Kusmvg1kh"} target="_blank" rel="noopener noreferrer" download className="px-6 py-3 rounded-full font-semibold text-[#111111] bg-gradient-to-r from-[#D4FE1A] to-[#39EEBE] hover:opacity-90 flex items-center gap-1.5 tracking-wider cursor-pointer">
                 <span>Download CV</span>{" "}
                 <span>
                   <RxDownload />

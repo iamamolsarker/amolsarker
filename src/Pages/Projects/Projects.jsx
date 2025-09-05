@@ -63,7 +63,7 @@ const Projects = () => {
                         <h2 className='text-2xl text-gradient'>Infinity Software Solutions</h2>
                     <p className='text-[#ababab]'>Infinity Software Solutions is a tech company delivering custom software and IT services. Clients can request tailored solutions, manage projects, and collaborate with expert developers. The platform supports end-to-end software development and deployment, built using Wordpress, Elementor pro.</p>
                     <div className='flex items-center gap-5'>
-                        <Link to={'https://sport-sync-ass-11.web.app/'} target="_blank" rel="noopener noreferrer" className='flex items-center gap-2 text-[#ababab] hover:text-[#D4FE1A]'><LuGlobe/> Live Site</Link>
+                        <Link to={'https://infinity-software.ch/'} target="_blank" rel="noopener noreferrer" className='flex items-center gap-2 text-[#ababab] hover:text-[#D4FE1A]'><LuGlobe/> Live Site</Link>
                         
                     </div>
                     </div>

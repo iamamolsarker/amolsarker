@@ -40,7 +40,7 @@ const ProfileCardComponent = ({
       className={`pc-card-wrapper ${className}`.trim()}
       style={cardStyle}
     >
-      <section className="pc-card">
+      <section className="pc-card h-[60svh] md:h-[70svh] lg:!h-auto">
         <div className="pc-inside">
           <div className="pc-shine" />
           <div className="pc-glare" />

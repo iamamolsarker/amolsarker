@@ -4,6 +4,7 @@ import MainLayout from "../Layout/MainLayout";
 import AboutMe from "../Pages/AboutMe/AboutMe";
 import Projects from "../Pages/Projects/Projects";
 import Blogs from "../Pages/Blogs/Blogs";
+import BlogDetails from "../Pages/BlogDetailsPage/BlogDetails";
 
 export const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ export const router = createBrowserRouter([
           path:"blogs",
           Component: Blogs
 
+        },
+        {
+          path:"single-blog/:id",
+          Component: BlogDetails
         }
     ]
   },

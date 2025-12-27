@@ -26,6 +26,7 @@ const Header = () => {
     { label: "Experience", section: "experience" },
     // { label: "Education", section: "education" },
     { label: "Contact", section: "contact" },
+    { label: "Blogs", link: "/blogs" },
   ];
 
   const scrollToSection = (sectionId) => {

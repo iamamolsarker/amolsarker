@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "title": "Why Learning JavaScript Is Essential for Web Developers",
+    "slug": "why-learning-javascript-is-essential",
+    "author": "Amol Sarker",
+    "publishedDate": "2025-01-01",
+    "category": "JavaScript",
+    "tags": ["javascript", "web development", "frontend"],
+    "excerpt": "JavaScript is the backbone of modern web development. This article explains why every web developer should learn it.",
+    "content": "JavaScript allows developers to create interactive, dynamic, and user-friendly websites. From simple form validation to complex web applications, JavaScript plays a critical role. Frameworks like React, Vue, and Angular are all built on JavaScript, making it an essential skill for frontend developers."
+  },
+  {
+    "id": 2,
+    "title": "HTML, CSS, and JavaScript: How They Work Together",
+    "slug": "html-css-javascript-how-they-work-together",
+    "author": "Amol Sarker",
+    "publishedDate": "2025-01-03",
+    "category": "Web Basics",
+    "tags": ["html", "css", "javascript"],
+    "excerpt": "Understanding how HTML, CSS, and JavaScript work together is the foundation of web development.",
+    "content": "HTML provides the structure of a webpage, CSS controls the design and layout, and JavaScript adds interactivity. When combined, these three technologies create complete and functional websites that users interact with every day."
+  },
+  {
+    "id": 3,
+    "title": "Common JavaScript Mistakes Beginners Should Avoid",
+    "slug": "common-javascript-mistakes-beginners-avoid",
+    "author": "Amol Sarker",
+    "publishedDate": "2025-01-05",
+    "category": "JavaScript",
+    "tags": ["javascript", "mistakes", "beginners"],
+    "excerpt": "New JavaScript learners often make the same mistakes. This post helps you avoid them early.",
+    "content": "Some common JavaScript mistakes include misunderstanding variable scope, ignoring error handling, and overusing global variables. By learning best practices early, beginners can write cleaner, more maintainable code."
+  },
+  {
+    "id": 4,
+    "title": "What Is React and Why Is It So Popular?",
+    "slug": "what-is-react-and-why-popular",
+    "author": "Amol Sarker",
+    "publishedDate": "2025-01-07",
+    "category": "React",
+    "tags": ["react", "javascript", "frontend"],
+    "excerpt": "React is one of the most popular JavaScript libraries. Learn why developers love it.",
+    "content": "React helps developers build fast and scalable user interfaces using components. Its virtual DOM improves performance, and its component-based architecture makes large applications easier to manage."
+  },
+  {
+    "id": 5,
+    "title": "How Consistent Practice Can Make You a Better Developer",
+    "slug": "consistent-practice-better-developer",
+    "author": "Amol Sarker",
+    "publishedDate": "2025-01-10",
+    "category": "Career",
+    "tags": ["learning", "practice", "developer growth"],
+    "excerpt": "Consistency matters more than talent in programming. Here’s why daily practice is powerful.",
+    "content": "Daily coding practice helps reinforce concepts, improve problem-solving skills, and build confidence. Even small daily efforts compound over time, turning beginners into skilled developers."
+  }
+]
